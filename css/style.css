@@ -4,12 +4,12 @@
 
 /* ---------- CSS Variables ---------- */
 :root {
-  --color-black: #080808;
-  --color-near-black: #0d0d0d;
-  --color-dark: #111111;
-  --color-dark-2: #1a1a1a;
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-border-hover: rgba(255, 255, 255, 0.2);
+  --color-black: #050d1a;
+  --color-near-black: #071225;
+  --color-dark: #0a1830;
+  --color-dark-2: #0d1f3c;
+  --color-border: rgba(100, 160, 255, 0.10);
+  --color-border-hover: rgba(100, 160, 255, 0.25);
   --color-white: #ffffff;
   --color-white-90: rgba(255, 255, 255, 0.9);
   --color-white-60: rgba(255, 255, 255, 0.6);
@@ -52,6 +52,7 @@ body {
   line-height: 1.7;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  background-image: radial-gradient(ellipse at top left, rgba(15, 40, 100, 0.3) 0%, transparent 60%), radial-gradient(ellipse at bottom right, rgba(10, 25, 70, 0.2) 0%, transparent 60%);
 }
 
 /* Subtle film grain texture overlay */
@@ -256,9 +257,9 @@ ul {
 }
 
 .nav.scrolled {
-  background: rgba(8, 8, 8, 0.92);
+  background: rgba(5, 13, 26, 0.95);
   backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid rgba(100, 160, 255, 0.12);
 }
 
 .nav__logo a {
@@ -431,9 +432,9 @@ ul {
   inset: 0;
   background: linear-gradient(
     135deg,
-    rgba(8, 8, 8, 0.85) 0%,
-    rgba(8, 8, 8, 0.4) 60%,
-    rgba(8, 8, 8, 0.6) 100%
+    rgba(5, 13, 26, 0.85) 0%,
+    rgba(5, 13, 26, 0.4) 60%,
+    rgba(5, 13, 26, 0.6) 100%
   );
   z-index: 1;
 }
@@ -635,9 +636,9 @@ ul {
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(8, 8, 8, 0.9) 0%,
-    rgba(8, 8, 8, 0.5) 50%,
-    rgba(8, 8, 8, 0.2) 100%
+    rgba(5, 13, 26, 0.9) 0%,
+    rgba(5, 13, 26, 0.5) 50%,
+    rgba(5, 13, 26, 0.2) 100%
   );
 }
 
@@ -800,9 +801,9 @@ ul {
   inset: 0;
   background: linear-gradient(
     135deg,
-    rgba(8, 8, 8, 0.88) 0%,
-    rgba(8, 8, 8, 0.55) 60%,
-    rgba(8, 8, 8, 0.3) 100%
+    rgba(5, 13, 26, 0.88) 0%,
+    rgba(5, 13, 26, 0.55) 60%,
+    rgba(5, 13, 26, 0.3) 100%
   );
 }
 
